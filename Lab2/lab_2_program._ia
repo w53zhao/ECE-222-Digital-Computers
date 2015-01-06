@@ -1,0 +1,5 @@
+--cpu Cortex-M3 -g --apcs=interwork 
+-I C:\Software\Keil\ARM\RV31\INC 
+-I C:\Software\Keil\ARM\CMSIS\Include 
+-I C:\Software\Keil\ARM\Inc\NXP\LPC17xx 
+--list "Lab_2_program.lst" --xref -o "Lab_2_program.o" --depend "Lab_2_program.d" "Lab_2_program.s"

@@ -1,0 +1,5 @@
+--cpu Cortex-M3 "startup_lpc17xx.o" "lab_2_program.o" 
+--strict --scatter "Lab2_program.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lab2_program.map" -o Lab2_program.axf
