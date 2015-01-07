@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'Lab4_program.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_lpc17xx.o"'
+### List of Objects: adding '"lab4_template.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "startup_lpc17xx.o" "lab4_template.o" 
+--strict --scatter "Lab4_program.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lab4_program.map" -o Lab4_program.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Lab4_program.axf'
+### ADS-LD Command File: 'Lab4_program.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Lab4_program.lnp', Handle=0x00000354
+### Writing '.lnp' file
+### ADS-LD Command file 'Lab4_program.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
